@@ -1,0 +1,31 @@
+Função Fecth API()
+
+Programação BackEnd:
+- Assincrônismo
+- Funções Assincrônas / Async e Await
+- Requisições HTTP
+- API EndPoints
+
+---------------------------------------
+
+1-Assincrônismo:
+    Sincronismo é uma tarefa que depende exclusivamente do tempo de processamento e resposta do sistema.
+2-Assincronismo nas requisições HTTP:
+HTTP é o protocolo de comunicação da internet: Pilares do HTTP - CRUD
+
+              Requisição(get)  Fecth()        EndPoint
+    Front    ------------->    API   -------->     Banco de
+    End      <-------------    API   <---------      Dados
+                resposta  |Arquivo JSON(JavaScript Object Notation)|
+
+Fecth('...',{opções})
+                ^
+                - Get
+                - Put/Update
+                - Read
+                - Delete
+*Promises*
+    ^
+    - Async
+    - Await
+                
