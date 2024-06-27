@@ -2,8 +2,8 @@
 
 //Criando a função assincrona
 async function fetchPokemon(){
-    try {
-        const pokemonID = document.getElementById('pokemonID').value
+    try {                                                           //primeira letra maiúscula
+        const pokemonID = document.getElementById('pokemonID').value.toLowerCase()
         const pokemonNome = document.getElementById('pokemonNome')
         const pokemonType = document.getElementById('pokemonType')
 
