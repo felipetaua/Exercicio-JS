@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Pokedex parte 4</title>
+</head>
+<body>
+    <header>
+        <img src="./img/pokemon-banner.jpeg" alt="banner pokemon">
+    </header>
+    <div class="pesquisa">
+        <input type="text" id="pokemonID" placeholder="Busque seu Pokemon:">
+        <button onclick="FetchPokemon()"><i class="fa-solid fa-magnifying-glass"></i> Pokemon</button><br>
+    </div>
+            <div class="card">
+                <img src="" alt="imagem do pokmon procurado" id="pokemonSprite" style="display: none">
+                <p id="pokemonNome"></p>
+                <small id="pokemonType"></small>
+            </div>
+    <script src="./script.js"></script>
+</body>
+</html>
